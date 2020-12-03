@@ -130,5 +130,21 @@ def minWord(input_str):
 print(minWord("the fish is a swimmer"))
 
 ```
+**7. Lambda function**
+
+- A lambda function is a small anonymous function. A lambda function can take any     
+number of arguments, but can only have one expression
+- filter() function returns an iterator were the items are filtered through     
+a function to test if the item is accepted or not.
+- Lists are used to store multiple items in a single variable
+
+```
+def funcMe(input_arr):
+
+    result = list(filter(lambda x: x > 0, input_arr))
+    return sum(result)
+    
+print(funcMe([1,2,3,4,5]))
+```
 
 
