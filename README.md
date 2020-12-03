@@ -66,7 +66,9 @@ print(nums(1234))
 
 **5. Check if it ends with...**
 - .endswith() will check to see if a string ends with a specified element (e.g., string or number)   
-Something to keep in mind. 
+Something to keep in mind. In general case append will add one item to the list, while += will copy    
+all elements of right-hand-side list into the left-hand-side list.  This is why we use append    
+in the else statement rather than ```result += ```.  Otherwise we'd get "s,a,n,d,y,x"
 
 ```
 def endswith(words):
