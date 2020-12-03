@@ -116,7 +116,10 @@ print(replaceMe("get the Cats out"))
 - list comprehensions are an abbreviated way to write solutions
 - .split() will split each word into a list item
 
-In this case, we'll use the list comprehension syntax, but apply it to a string.
+In this case, we'll use the list comprehension syntax, but apply it to a string.  Let's break this apart.    
+```for word in input_str.split()``` is splitting the string into individual list items.    
+```len(word)``` is then getting the length of those words    
+```min()``` is then getting the min or smallest word from the list    
 
 ```
 test = min(len(word) for word in input_str.split())
