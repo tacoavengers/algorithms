@@ -46,9 +46,9 @@ def changeAndReverse(txt):
 print(changeAndReverse("fuNNyStuFF")
 ```
 
-**4. square the numbers**
+**4. Square the numbers**
 -  (**) to square numbers    
-Some things to keep in mind.  These numbers are being passed as an int.  They are not iterable.    
+Something to keep in mind.  These numbers are being passed as an int.  They are not iterable.    
 For this reason we change them to a string in the for loop. Working from the inside out,    
 we assign test to an int, square the numbers, the revert back to a string so we can    
 attacth them to the result.  In the return, we send them back as ints.  The same way they were    
@@ -64,9 +64,27 @@ def nums(n):
 print(nums(1234))
 ```
 
-**4. check if it ends with...**
+**5. Check if it ends with...**
 - .endswith() will check to see if a string ends with a specified element (e.g., string or number)   
+Something to keep in mind. 
 
+```
+def endswith(words):
+    
+    result = []
+    
+    for word in words:
+        if word.endswith("x"):
+            result += [word]
+        else:
+            result.append(word + "x")
+            
+    return result
+
+
+print(endswith(["coolx", "sandy", "funx", "balloon"]))
+
+```
 
 
 
