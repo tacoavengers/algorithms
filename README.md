@@ -34,7 +34,7 @@ print(numsOrLetters("fasdf"))
 print(numsOrLetters("12fsd"))
 ```
 
-**2. Reverse and change case**
+**3. Reverse and change case**
 - [::-1] will reverse a string
 - swapcase will change all of the existing letter cases to their opposits
 
@@ -44,6 +44,22 @@ def changeAndReverse(txt):
     return test[:: -1]
   
 print(changeAndReverse("fuNNyStuFF")
+```
+
+**4. square numbers**
+- ** (number) to square numbers
+Some things to keep in mind.  These numbers are being passed as an int.  They are not iterable.    
+For this reason we change them to a string.  Notice then how we change the test var to an int    
+and then square the number, then convert back to a string for the output.
+
+```
+def nums(n):
+    result = ""
+    for test in str(n):
+        result += str(int(test) ** 2)
+    return int(result)
+
+print(nums(1234))
 ```
 
 
