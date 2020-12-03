@@ -90,8 +90,22 @@ print(endswith(["coolx", "sandy", "funx", "balloon"]))
 
 **6. Replace with...**
 - .replace().  This takes two parameters (what you're looking for, what you want to replace it with).    
-In this case, .replace(vowel, something).
-
+In this case, .replace(vowel, something).  So the obvious quesiton might be, "why did you create a copy    
+of the string?"  It's because strings are immutable.  If I were to go ```for i in the_str.lower()``` it wouldn't    
+work because I would be mutating the string.
 
 ```
+def replaceMe(the_str):
+    
+    letters = ("e", "c", "o")
+    
+    myStr = the_str.lower()
+    
+    for i in myStr:
+        if i in letters:
+            myStr = myStr.replace(i,"-")
+    return myStr
+    
+
+print(replaceMe("get the Cats out"))
 ```
