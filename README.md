@@ -38,6 +38,14 @@ print(numsOrLetters("12fsd"))
 - [::-1] will reverse a string
 - swapcase will change all of the existing letter cases to their opposits
 
+```
+def changeAndReverse(txt):
+    test = txt.swapcase()
+    return test[:: -1]
+  
+print(changeAndReverse("fuNNyStuFF")
+```
+
 
 
 
