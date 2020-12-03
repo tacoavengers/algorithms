@@ -49,8 +49,10 @@ print(changeAndReverse("fuNNyStuFF")
 **4. square numbers**
 -  (**) to square numbers    
 Some things to keep in mind.  These numbers are being passed as an int.  They are not iterable.    
-For this reason we change them to a string.  Notice then how we change the test var to an int    
-and then square the number, then convert back to a string for the output.
+For this reason we change them to a string in the for loop. Working from the inside out,    
+we assign test to an int, square the numbers, the revert back to a string so we can    
+attacth them to the result.  In the return, we send them back as ints.  The same way they were    
+originally sent.
 
 ```
 def nums(n):
