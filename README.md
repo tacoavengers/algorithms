@@ -122,8 +122,12 @@ In this case, we'll use the list comprehension syntax, but apply it to a string.
 ```min()``` is then getting the min or smallest word from the list    
 
 ```
-test = min(len(word) for word in input_str.split())
-return test
+def minWord(input_str):
+    
+    test = min(len(word) for word in input_str.split())
+    return test
+    
+print(minWord("the fish is a swimmer"))
 
 ```
 
