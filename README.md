@@ -17,7 +17,19 @@ print(findWaldo(array))
 ```
 
 **2. Only numbers or letters**
+- isalpha detects the presence of letters.
+- isdigit detects the presence of numbers
 
 ```
-
+def numsOrLetters(input_str):
+    if input_str.isdigit():
+        return True
+    if input_str.isalpha():
+        return True
+    else:
+        return False
+    
+print(numsOrLetters("asdff"))
+print(numsOrLetters("fasdf"))
+print(numsOrLetters("12fsd"))
 ```
