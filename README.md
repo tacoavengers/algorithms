@@ -5,8 +5,6 @@ algorithms
 
 - range returns a sequence of numbers starting from 0
 - len returns the number of items in an object
-
-
 ```
 def findWaldo(names):
   for i in range(len(names)):
