@@ -33,3 +33,11 @@ print(numsOrLetters("asdff"))
 print(numsOrLetters("fasdf"))
 print(numsOrLetters("12fsd"))
 ```
+
+**2. Reverse and change case**
+- [::-1] will reverse a string
+- swapcase will change all of the existing letter cases to their opposits
+
+
+
+
