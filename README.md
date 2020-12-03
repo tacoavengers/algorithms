@@ -138,13 +138,15 @@ number of arguments, but can only have one expression
 a function to test if the item is accepted or not.
 - Lists are used to store multiple items in a single variable
 
+So what's going on here? Working from the inside the parens to out, we have
+
 ```
 def funcMe(input_arr):
 
     result = list(filter(lambda x: x > 0, input_arr))
     return sum(result)
     
-print(funcMe([1,2,3,4,5]))
+print(funcMe([1,2,-3,4,-5]))
 ```
 
 
