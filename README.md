@@ -109,3 +109,19 @@ def replaceMe(the_str):
 
 print(replaceMe("get the Cats out"))
 ```
+
+**7. The shortest word..using len, min, and list comprehension...**
+- min returns the minimum element 
+- len gets the length of elements
+- list comprehensions are an abbreviated way to write solutions
+- .split() will split each word into a list item
+
+In this case, we'll use the list comprehension syntax, but apply it to a string.
+
+```
+test = min(len(word) for word in input_str.split())
+return test
+
+```
+
+
