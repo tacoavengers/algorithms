@@ -47,7 +47,7 @@ print(changeAndReverse("fuNNyStuFF")
 ```
 
 **4. square numbers**
-- ** (number) to square numbers    
+-  (**) to square numbers    
 Some things to keep in mind.  These numbers are being passed as an int.  They are not iterable.    
 For this reason we change them to a string.  Notice then how we change the test var to an int    
 and then square the number, then convert back to a string for the output.
