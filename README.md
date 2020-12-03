@@ -15,3 +15,9 @@ def findWaldo(names):
 array = ["Frank", "Sally", "Waldo"]
 print(findWaldo(array))
 ```
+
+**2. Only numbers or letters**
+
+```
+
+```
