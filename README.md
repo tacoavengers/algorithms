@@ -88,6 +88,10 @@ print(endswith(["coolx", "sandy", "funx", "balloon"]))
 
 ```
 
+**6. Replace with...**
+- .replace().  This takes two parameters (what you're looking for, what you want to replace it with).    
+In this case, .replace(vowel, something).
 
 
-
+```
+```
